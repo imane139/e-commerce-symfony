@@ -1,0 +1,29 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Mon Profil{% endblock %}
+
+{% block body %}
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <h2 class="mb-4">Mon Profil</h2>
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="bg-dark text-white rounded-circle d-flex align-items-center justify-content-center me-3"
+                             style="width:60px;height:60px;font-size:24px;">
+                            👤
+                        </div>
+                        <div>
+                            <h5 class="mb-0">Jean Dupont</h5>
+                            <small class="text-muted">Membre depuis 2024</small>
+                        </div>
+                    </div>
+                    <p><strong>Email :</strong> jean.dupont@email.com</p>
+                    <p><strong>Téléphone :</strong> 06 12 34 56 78</p>
+                    <p><strong>Adresse :</strong> 12 rue de la Paix, Paris</p>
+                    <a href="#" class="btn btn-dark w-100">Modifier mon profil</a>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
